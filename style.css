@@ -522,7 +522,7 @@ input:where([type="text"], [type="email"], ) {
   margin-inline: var(--size-400);
 }
 
-.slider>* {
+.slider > * {
   position: relative;
   flex: 0 0 auto;
   width: 100%;
@@ -539,13 +539,13 @@ input:where([type="text"], [type="email"], ) {
     margin-inline: 0;
   }
 
-  .slider>* {
+  .slider > * {
     width: 50%;
   }
 }
 
 @media (min-width: 50em) {
-  .slider>* {
+  .slider > * {
     width: 35%;
   }
 }
