@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+  <script type="module" src="/main.js"></script>
+  <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
+</head>
+<!--defer*/-->
+<body>
+  
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html"><img class="logo" src="images/logo.svg" height="100rem" alt=""></a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li><a href="about.html">About</a></li>
+            <li><a href="reiki.html">Reiki</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="appt.html">Appointments</a></li>
+            <li><a href="shop.html">Shop</a></li>
+          </ul>
+        </nav>
+        <button class="button | display-sm-none display-md-inline-flex" onclick="window.location.href='contact.html'">Contact me</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="padding-block-900">
+      <div class="container">
+        <div class="even-columns">
+          <div class="flow">
+            <h1 class="fs-primary-heading fw-bold">Bring balance and harmony to your life</h1>
+            <p>I will teach you daily practices that will help you cope with the rigours of modern life</p>
+            <p><em>"It is very important to generate a good attitude, a good heart, as much as possible.From this, happiness
+              in both the short term and the long term for both yourself and others will come.</em>"</p>
+            <p class="p-right">--Dalai Lama</p>           
+          </div>
+          <div>
+            <img src="images/index1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding-block-900">
+      <div class="container">
+        <div class="even-columns">
+          <div class="flow text-center-sm-only margin" style="--flow-spacer: 1.5rem">
+            <h2 class="fs-secondary-heading fw-bold">What is Reiki</h2>
+            <p>Rei ki is the manipulation and redirection of the natural energy that surrouns us all. Through use of
+              this energy we can cleanse, balance, and retrain the bodies natural ability to heal. Reiki has many
+              benefits, but each individual will get out of it what their self needs.</p>
+          </div>
+          <div>
+            <ul class="numbered-items | flow" role="list">
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Re-centre yourself</h3>
+                  <p class="numbered-items__body" data-width="wide">See how your day-to-day tasks fit into the wider
+                    vision. Go from tracking
+                    progress at the milestone
+                    level all the way
+                    done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Find that quiet inner space</h3>
+                  <p class="numbered-items__body" data-width="wide">Set internal delivery estimates and track progress
+                    toward company goals. Our
+                    customisable dashboard
+                    helps you build out
+                    the reports you need to keep key stakeholders informed.</p>
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">See the uiverse differently</h3>
+                  <p class="numbered-items__body" data-width="wide">Stop jumping from one service to another to
+                    communicate, store files, track tasks
+                    and share
+                    documents. Manage offers an
+                    all-in-one team productivity solution.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel | padding-block-900  text-center">
+      <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
+      <!-- Carousel here -->
+      <ul class="slider">
+        <li>
+          <img src="images/jola.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Anisha Li</h3>
+            <p data-width="wide">“Manage has supercharged our team’s workflow. The ability to maintain visibility on
+              larger milestones at all times keeps
+              everyone motivated.”</p>
+          </div>
+        </li>
+        <li>
+          <img src="images/avatar-ali.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Ali Bravo</h3>
+            <p data-width="wide">“We have been able to cancel so many other subscriptions since using Manage. There is
+              no
+              more cross-channel
+              confusion
+              and everyone is much more focused.”</p>
+          </div>
+        </li>
+        <li>
+          <img src="images/avatar-richard.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Richard Watts</h3>
+            <p data-width="wide">“Manage allows us to provide structure and process. It keeps us organized and focused.
+              I
+              can’t stop recommending them to
+              everyone I talk to!” </p>
+          </div>
+        </li>
+        <li>
+          <img src="images/avatar-shanai.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Shanai Gough</h3>
+            <p data-width="wide">“Their software allows us to track, manage and collaborate on our projects from
+              anywhere.
+              It keeps the whole team
+              in-sync without being intrusive.” </p>
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="cta | margin-top-900 padding-block-900 bg-accent-400 text-neutral-100">
+      <div class="container">
+        <div class="even-columns vertical-align-center">
+          <div>
+            <p class="fs-primary-heading fw-bold">Simplify how your team works today.</p>
+          </div>
+          <div class="justify-self-end-md">
+            <button class="button" data-type="inverted" onclick="window.location.href='contact.html'">Book me now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
+    <div class="container">
+      <div class="primary-footer__wrapper">    
+          <a class="primary-footer__logo" href="index.html" aria-label="home">
+            <img class="logo" src="images/logo.svg" height="100rem" alt="">
+          </a>
+
+          <ul class="social-list" role="list" aria-label="Social links">
+            <li><a aria-label="facebook" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-facebook"></use>
+                </svg></a>
+            </li>
+            <li><a aria-label="youtube" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-youtube"></use>
+                </svg>
+              </a></li>
+            <li><a aria-label="twitter" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-twitter"></use>
+                </svg>
+              </a></li>
+            <li><a aria-label="pinterest" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-pinterest"></use>
+                </svg>
+              </a></li>
+            <li><a aria-label="instragram" href="#">
+              <svg class="social-icon">
+                <use xlink:href="images/social-icons.svg#icon-instagram"></use>
+              </svg>
+              </a></li>
+          </ul>      
+        <div class="primary-footer__nav-wrapper">
+          <nav class="footer-nav">
+            <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="contact.html">Contact me</a></li>
+              <li><a href="where.html">Find me</a></li>
+              <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+          </nav>
+        </div>       
+      </div>
+    </div>
+  </footer>
+
+  
+</body>
+
+</html>
